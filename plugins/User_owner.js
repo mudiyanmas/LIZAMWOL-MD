@@ -8,7 +8,7 @@ Support      : wa.me/263714757857
 
 
 
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const config = require('../settings');
 
 malvin({
