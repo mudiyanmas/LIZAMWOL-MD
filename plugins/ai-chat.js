@@ -30,7 +30,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "openai",
     alias: ["chatgpt", "gpt3", "open-gpt"],
     desc: "Chat with OpenAI",
@@ -59,7 +59,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "deepseek",
     alias: ["deep", "seekai"],
     desc: "Chat with DeepSeek AI",
