@@ -11,7 +11,7 @@ Support      : wa.me/263714757857
 const { liza } = require('../liza');
 const config = require('../settings');
 
-malvin({
+liza({
     pattern: "user",
     react: "✅", 
     desc: "Get owner number",
