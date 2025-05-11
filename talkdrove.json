@@ -3,12 +3,12 @@
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝐌ᴜᴅͥɪͣʏͫᴀ𝐍🦋✭",
   "logo": "https://files.catbox.moe/zu92j8.jpg",
   "keywords": ["bot"],
-  "documentation-link": "https://new-session-m3jx.onrender.com/",
-    "owner-verification":"malvink003@gmail.com",
+  "documentation-link": "https://liza-session-ftul.onrender.com/",
+    "owner-verification":"igv2luro@gmail.com",
   
   "env": {
     "SESSION_ID": {
-      "description": "Must Start with 'malvin~'",
+      "description": "Must Start with 'liza~'",
       "required": true,
       "value": ""
     },
