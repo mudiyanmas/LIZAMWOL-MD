@@ -1,4 +1,4 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 const axios = require('axios');
 const fs = require('fs');
@@ -6,7 +6,7 @@ const config = require('../settings');
 const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 
-malvin({
+liza({
     pattern: "play",
     alias: ["ytplay", "ytmp3"],
     react: "📲",
