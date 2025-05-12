@@ -1,6 +1,6 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "block",
     desc: "Blocks a person",
     category: "owner",
@@ -39,7 +39,7 @@ async (conn, m, { reply, q, react }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "unblock",
     desc: "Unblocks a person",
     category: "owner",
