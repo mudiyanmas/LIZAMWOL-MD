@@ -1,7 +1,7 @@
 const axios = require("axios");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
-malvin({
+liza({
   pattern: "mediafire2",
   alias: ["mfire2", "mfdownload2"],
   react: '📥',
@@ -122,7 +122,7 @@ malvin({
 
 /// MEDIAFIRE 2
 
-malvin({
+liza({
   pattern: "mediafire",
   alias: ["mfire", "media"],
   react: '📂',
