@@ -1,12 +1,12 @@
 const config = require('../settings')
 const l = console.log
-const { malvin, commands } = require('../malvin')
+const { liza, commands } = require('../liza')
 const dl = require('@bochilteam/scraper')  
 const ytdl = require('yt-search');
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
-malvin({
+liza({
     pattern: "yts",
     alias: ["ytsearch"],
     use: '.yts lizamwolmd',
