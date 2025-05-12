@@ -1,8 +1,8 @@
 const axios = require('axios');
 const config = require("../settings");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
-malvin({ on: "body" }, async (conn, m, msg, { from, body }) => {
+liza({ on: "body" }, async (conn, m, msg, { from, body }) => {
   try {
     const jsonUrl = "https://raw.githubusercontent.com/XdKing2/MALVIN-DATA/main/autovoice.json";
     const res = await axios.get(jsonUrl);
