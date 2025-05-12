@@ -1,7 +1,7 @@
 const axios = require("axios");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
-malvin({
+liza({
   pattern: "igimagedl",
   alias: ["instagramimages", "igimages","igimage"],
   react: '📥',
