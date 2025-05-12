@@ -1,14 +1,14 @@
 /*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https://github.com/XdKing2/MALVIN-XD
+Project Name : LIZA
+Creator      : MUDIYAN
+Repo         : https://github.com/mudiyanmas/LIZAMWOL-MD
 */   
 
 const axios = require("axios");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
 // Command: bible
-malvin({
+liza({
     pattern: "bible",
     desc: "Fetch Bible verses by reference.",
     category: "search",
