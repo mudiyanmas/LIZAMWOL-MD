@@ -1,11 +1,11 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 const fetch = require("node-fetch");
 const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 
 
-malvin({
+liza({
     pattern: "video",
     alias: ["ytvideo", "mp4"],
     react: "📽",
