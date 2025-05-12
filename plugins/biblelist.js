@@ -1,7 +1,7 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
 // Command: biblelist
-malvin({
+liza({
     pattern: "biblelist",
     alias: ["biblebooks", "listbible", "blist"], // Added aliases
     desc: "Get the complete list of books in the Bible.",
