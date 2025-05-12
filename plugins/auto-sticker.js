@@ -1,8 +1,8 @@
 const axios = require('axios');
 const config = require('../settings');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
   on: 'body'
 }, async (conn, mek, m, { from, body }) => {
   try {
