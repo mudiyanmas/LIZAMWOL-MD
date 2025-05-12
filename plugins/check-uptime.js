@@ -1,8 +1,8 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const { runtime } = require('../lib/functions');
 const config = require('../settings');
 
-malvin({
+liza({
     pattern: "uptime",
     alias: ["runtime", "up"],
     desc: "Show bot uptime with stylish formats",
