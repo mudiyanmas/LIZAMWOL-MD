@@ -1,7 +1,7 @@
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const axios = require('axios');
 
-malvin({
+liza({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
@@ -45,7 +45,7 @@ malvin({
 });
 
 
-malvin({
+liza({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
