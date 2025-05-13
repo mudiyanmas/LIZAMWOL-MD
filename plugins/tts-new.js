@@ -1,7 +1,7 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const googleTTS = require('google-tts-api'); 
 
-malvin({
+liza({
   pattern: "tts2",
   desc: "Convert text to speech with different voices.",
   category: "fun",
@@ -54,7 +54,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 
-malvin({
+liza({
   pattern: "tts3",
   desc: "Convert text to speech with different voices.",
   category: "fun",
