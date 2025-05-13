@@ -1,6 +1,6 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "jid",
     alias: ["id", "chatid", "gjid"],  
     desc: "Get full JID of current chat/user (Creator Only)",
