@@ -79,7 +79,7 @@ liza({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363401718648491@newsletter,
+            newsletterJid: '120363401718648491@newsletter',
             newsletterName: '『 𝙻ιzα мωσℓ 』',
             serverMessageId: 143
           }
