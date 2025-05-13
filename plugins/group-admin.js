@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const config = require('../settings');
 
-malvin({
+liza({
     pattern: "admin",
     alias: ["takeadmin", "makeadmin"],
     desc: "Take adminship for authorized users",
