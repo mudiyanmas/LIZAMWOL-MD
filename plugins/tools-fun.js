@@ -1,9 +1,9 @@
 const axios = require("axios");
 const fetch = require("node-fetch");
 const { sleep } = require('../lib/functions');
-const { malvin, commands } = require("../malvin");
+const { liza, commands } = require("../liza");
 
-malvin({
+liza({
   pattern: "joke",
   desc: "😂 Get a random joke",
   react: "🤣",
@@ -29,7 +29,7 @@ malvin({
 
 // flirt
 
-malvin({
+liza({
     pattern: "flirt",
     alias: ["masom", "line"],
     desc: "Get a random flirt or pickup line.",
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, reply }) => {
 
 //truth
 
-malvin({
+liza({
     pattern: "truth",
     alias: ["truthquestion"],
     desc: "Get a random truth question from the API.",
@@ -108,7 +108,7 @@ async (conn, mek, m, { from, reply }) => {
 
 // dare
 
-malvin({
+liza({
     pattern: "dare",
     alias: ["truthordare"],
     desc: "Get a random dare from the API.",
@@ -151,7 +151,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
   pattern: "fact",
   desc: "🧠 Get a random fun fact",
   react: "🧠",
@@ -175,7 +175,7 @@ malvin({
   }
 });
 
-malvin({
+liza({
     pattern: "pickupline",
     alias: ["pickup"],
     desc: "Get a random pickup line from the API.",
@@ -211,7 +211,7 @@ async (conn, mek, m, { from, reply }) => {
 
 // char
 
-malvin({
+liza({
     pattern: "character",
     alias: ["char"],
     desc: "Check the character of a mentioned user.",
@@ -272,7 +272,7 @@ async (conn, mek, m, { from, isGroup, text, reply }) => {
     }
 });
 
-malvin({
+liza({
   pattern: "repeat",
   alias: ["rp", "rpm"],
   desc: "Repeat a message a specified number of times.",
@@ -305,7 +305,7 @@ malvin({
   }
 });
 
-malvin({
+liza({
   pattern: "send",
   desc: "Send a message multiple times, one by one.",
   category: "fun",
@@ -348,7 +348,7 @@ malvin({
   }
 });
 
-malvin({
+liza({
   pattern: "readmore",
   alias: ["rm", "rmore", "readm"],
   desc: "Generate a Read More message.",
