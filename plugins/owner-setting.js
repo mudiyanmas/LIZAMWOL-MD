@@ -74,7 +74,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 });
 
 // 8. Group JIDs List
-malvin({
+liza({
     pattern: "gjid",
     desc: "Get the list of JIDs for all groups the bot is part of.",
     category: "owner",
@@ -91,7 +91,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 
 // delete 
 
-malvin({
+liza({
 pattern: "delete",
 react: "❌",
 alias: ["del"],
