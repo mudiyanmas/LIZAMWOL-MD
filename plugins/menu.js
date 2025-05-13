@@ -87,7 +87,7 @@ liza({
             try {
                 await new Promise(resolve => setTimeout(resolve, 1000)); // Small delay after image
                 await conn.sendMessage(from, {
-                    audio: { url: 'https://github.com/XdKing2/MALVIN-DATA/raw/refs/heads/main/autovoice/menu.m4a' },
+                    audio: { url: 'https://github.com/NithinLiza/MALVIN-DATA/blob/main/autovoice/menu.m4a' },
                     mimetype: 'audio/mp4',
                     ptt: true,
                 }, { quoted: mek });
