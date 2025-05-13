@@ -1,9 +1,9 @@
 const config = require('../settings');
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const { runtime } = require('../lib/functions');
 const axios = require('axios');
 
-malvin({
+liza({
     pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
