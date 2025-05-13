@@ -1,7 +1,7 @@
-// Malvin King- MALVIN XD 
+// liza
 // Dont Remove Credit From File 
 
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
 // Safety Configuration
 const SAFETY = {
@@ -10,7 +10,7 @@ const SAFETY = {
   EXTRA_DELAY: 4000,  // huh don't copy mine file 
 };
 
-malvin({
+liza({
   pattern: "forward",
   alias: ["fwd"],
   desc: "Bulk forward media to groups",
