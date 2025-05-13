@@ -1,8 +1,8 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const axios = require("axios");
 const fs = require("fs");
 
-malvin({
+liza({
   pattern: "fluxai",
   alias: ["flux", "imagine"],
   react: "🚀",
@@ -36,7 +36,7 @@ malvin({
   }
 });
 
-malvin({
+liza({
   pattern: "stablediffusion",
   alias: ["sdiffusion", "imagine2"],
   react: "🚀",
@@ -70,7 +70,7 @@ malvin({
   }
 });
 
-malvin({
+liza({
   pattern: "stabilityai",
   alias: ["stability", "imagine3"],
   react: "🚀",
