@@ -1,9 +1,9 @@
 const config = require('../settings');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
 // Presence Control (Online/Offline)
 
-malvin({
+liza({
   on: "body"
 }, async (conn, mek, m, { from }) => {
   try {
