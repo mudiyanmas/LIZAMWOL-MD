@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
 // Command to list all pending group join requests
-malvin({
+liza({
     pattern: "requestlist",
     desc: "Shows pending group join requests",
     category: "group",
@@ -61,7 +61,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 // Command to accept all pending join requests
-malvin({
+liza({
     pattern: "acceptall",
     desc: "Accepts all pending group join requests",
     category: "group",
@@ -119,7 +119,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 // Command to reject all pending join requests
-malvin({
+liza({
     pattern: "rejectall",
     desc: "Rejects all pending group join requests",
     category: "group",
