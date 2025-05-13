@@ -3,9 +3,9 @@ const FormData = require('form-data');
 const fs = require('fs');
 const os = require('os');
 const path = require("path");
-const { malvin, commands } = require("../malvin");
+const { liza, commands } = require("../liza");
 
-malvin({
+liza({
   'pattern': "tourl",
   'alias': ["imgtourl", "imgurl", "url", "geturl", "upload"],
   'react': '🖇',
