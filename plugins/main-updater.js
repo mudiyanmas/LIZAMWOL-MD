@@ -1,11 +1,11 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const axios = require('axios');
 const fs = require('fs');
 const path = require("path");
 const AdmZip = require("adm-zip");
 const { setCommitHash, getCommitHash } = require('../data/updateDB');
 
-malvin({
+liza({
     pattern: "update",
     alias: ["upgrade", "sync"],
     react: '🆕',
