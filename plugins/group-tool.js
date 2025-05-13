@@ -1,9 +1,9 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // remove only member
 
-malvin({
+liza({
     pattern: "removemembers",
     alias: ["kickall", "endgc", "endgroup"],
     desc: "Remove all non-admin members from the group.",
@@ -57,7 +57,7 @@ async (conn, mek, m, {
 
 // remove only admins
  
-malvin({
+liza({
     pattern: "removeadmins",
     alias: ["kickadmins", "kickall3", "deladmins"],
     desc: "Remove all admin members from the group, excluding the bot and bot owner.",
@@ -111,7 +111,7 @@ async (conn, mek, m, {
 
 // remove admins and memeber both
 
-malvin({
+liza({
     pattern: "removeall2",
     alias: ["kickall2", "endgc2", "endgroup2"],
     desc: "Remove all members and admins from the group, excluding the bot and bot owner.",
