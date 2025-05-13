@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
-malvin({
+liza({
   pattern: "tiktoksearch",
   alias: ["tiktoks", "tiks"],
   desc: "Search for TikTok videos using a query.",
