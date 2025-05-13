@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const axios = require('axios');
 
-malvin({
+liza({
     pattern: "ytpost",
     alias: ["ytcommunity", "ytc"],
     desc: "Download a YouTube community post",
@@ -25,7 +25,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
         let caption = `📢 *YouTube Community Post* 📢\n\n` +
                       `📜 *Content:* ${post.content}
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ LIZAMWOL-MD`;
 
         if (post.images && post.images.length > 0) {
             for (const img of post.images) {
