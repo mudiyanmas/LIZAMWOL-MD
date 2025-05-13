@@ -1,10 +1,10 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Recording the start time of the bot
 const ALIVE_IMG = "https://files.catbox.moe/zu92j8.jpg"; // Ensure this URL is valid
 
-malvin({
+liza({
     pattern: "help",
     desc: "Check if the bot is active.",
     category: "info",
