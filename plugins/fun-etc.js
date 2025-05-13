@@ -1,8 +1,8 @@
 const axios = require("axios");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const { fetchGif, gifToVideo } = require("../lib/fetchGif");
 
-malvin({
+liza({
   pattern: "marige",
   alias: ["shadi", "marriage", "wedding"],
   desc: "Randomly pairs two users for marriage with a wedding GIF",

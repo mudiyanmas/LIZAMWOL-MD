@@ -6,14 +6,14 @@ Support      : wa.me/918137829228
 */
 
 const config = require('../settings');
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const os = require("os");
 const { runtime } = require('../lib/functions');
 const axios = require('axios');
 const more = String.fromCharCode(8206);
 const readMore = more.repeat(4001);
 
-malvin({
+liza({
     pattern: "support",
     alias: "follow",
     desc: "base",

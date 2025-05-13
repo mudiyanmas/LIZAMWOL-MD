@@ -1,11 +1,11 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const config = require("../settings");
 const moment = require("moment");
 
 const ALIVE_IMG = "https://files.catbox.moe/zu92j8.jpg";
 let botStartTime = Date.now();
 
-malvin({
+liza({
     pattern: "alive",
     desc: "Check if the bot is active.",
     category: "main",
@@ -45,7 +45,7 @@ malvin({
 │  ✨ ᴠᴇʀsɪᴏɴ: *${config.version}*
 ╰───────────────❍
 
-✅ *Malvin is online and operational!*
+✅ *Liza is online and operational!*
 🔧 *System running smoothly!*
         `.trim();
 

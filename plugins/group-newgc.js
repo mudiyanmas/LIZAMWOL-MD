@@ -3,7 +3,7 @@
 //---------------------------------------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------------------------------------
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const config = require('../settings');
 const prefix = config.PREFIX;
 const fs = require('fs');
@@ -11,7 +11,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson
 const { writeFileSync } = require('fs');
 const path = require('path');
 
-malvin({
+liza({
   pattern: "newgc",
   category: "group",
   desc: "Create a new group and add participants.",

@@ -1,10 +1,10 @@
 const config = require('../settings')
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const os = require("os")
 const {runtime} = require('../lib/functions')
 const axios = require('axios')
 
-malvin({
+liza({
     pattern: "menu2",
     alias: ["allmenu","fullmenu"],
     use: '.menu2',

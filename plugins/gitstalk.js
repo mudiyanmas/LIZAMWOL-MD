@@ -1,8 +1,8 @@
 const axios = require('axios');
 const config = require('../settings');
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 
-malvin({
+liza({
     pattern: "githubstalk",
     desc: "Fetch detailed GitHub user profile including profile picture.",
     category: "main",

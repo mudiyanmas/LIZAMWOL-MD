@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const { getBuffer, fetchJson } = require('../lib/functions');
 
-malvin({
+liza({
     pattern: "person",
     react: "👤",
     alias: ["userinfo", "profile"],

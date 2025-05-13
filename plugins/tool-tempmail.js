@@ -1,7 +1,7 @@
 const axios = require('axios');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "tempmail",
     alias: ["genmail"],
     desc: "Generate a new temporary email address",
@@ -69,7 +69,7 @@ _Email will expire after 24 hours_
         reply(`❌ Error: ${e.message}`);
     }
 });
-malvin({
+liza({
     pattern: "checkmail",
     alias: ["inbox", "tmail", "mailinbox"],
     desc: "Check your temporary email inbox",

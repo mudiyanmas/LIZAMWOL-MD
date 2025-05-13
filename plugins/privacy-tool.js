@@ -1,11 +1,11 @@
 const fs = require("fs");
 const config = require("../settings");
-const { malvin, commands } = require("../malvin");
+const { liza, commands } = require("../liza");
 const path = require('path');
 const axios = require("axios");
 
 
-malvin({
+liza({
     pattern: "privacy",
     alias: ["privacymenu"],
     desc: "Privacy settings menu",
@@ -64,7 +64,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 
-malvin({
+liza({
     pattern: "blocklist",
     desc: "View the list of blocked users.",
     category: "privacy",
@@ -95,7 +95,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "getbio",
     desc: "Displays the user's bio.",
     category: "privacy",
@@ -111,7 +111,7 @@ malvin({
         reply("No bio found.");
     }
 });
-malvin({
+liza({
     pattern: "setppall",
     desc: "Update Profile Picture Privacy",
     category: "privacy",
@@ -135,7 +135,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         return reply(`*An error occurred while processing your request.*\n\n_Error:_ ${e.message}`);
     }
 });
-malvin({
+liza({
     pattern: "setonline",
     desc: "Update Online Privacy",
     category: "privacy",
@@ -160,7 +160,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
     }
 });
 
-malvin({
+liza({
     pattern: "setpp",
     desc: "Set bot profile picture.",
     category: "privacy",
@@ -189,7 +189,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "setmyname",
     desc: "Set your WhatsApp display name.",
     category: "privacy",
@@ -222,7 +222,7 @@ async (conn, mek, m, { from, isOwner, reply, args }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "updatebio",
     react: "🥏",
     desc: "Change the Bot number Bio.",
@@ -242,7 +242,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         l(e);
     }
 });
-malvin({
+liza({
     pattern: "groupsprivacy",
     desc: "Update Group Add Privacy",
     category: "privacy",
@@ -267,7 +267,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
     }
 });
 
-malvin({
+liza({
     pattern: "getprivacy",
     desc: "Get the bot Number Privacy Setting Updates.",
     category: "privacy",
@@ -296,7 +296,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         l(e);
     }
 });
-malvin({
+liza({
     pattern: "getpp",
     desc: "Fetch the profile picture of a tagged or replied user.",
     category: "owner",

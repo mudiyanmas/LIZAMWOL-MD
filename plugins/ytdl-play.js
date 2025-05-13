@@ -1,8 +1,8 @@
 const config = require('../settings');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const yts = require('yt-search');
 
-malvin({
+liza({
     pattern: "yt2",
     alias: ["play2", "music"],
     react: "🎵",

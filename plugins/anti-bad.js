@@ -1,8 +1,8 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const config = require("../settings");
 
 // Anti-Bad Words System
-malvin({
+liza({
   'on': "body"
 }, async (conn, m, store, {
   from,

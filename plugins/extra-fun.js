@@ -1,7 +1,7 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const config = require('../settings');
 
-malvin({
+liza({
   pattern: "compatibility",
   alias: ["friend", "fcheck"],
   desc: "Calculate the compatibility score between two users.",
@@ -41,7 +41,7 @@ malvin({
   }
 });
 
-  malvin({
+  liza({
   pattern: "aura",
   desc: "Calculate aura score of a user.",
   category: "fun",
@@ -78,7 +78,7 @@ malvin({
   }
 });
 
-malvin({
+liza({
     pattern: "8ball",
     desc: "Magic 8-Ball gives answers",
     category: "fun",
@@ -99,7 +99,7 @@ async (conn, mek, m, { from, q, reply }) => {
     reply(`🎱 *Magic 8-Ball says:* ${answer}`);
 });
 
-malvin({
+liza({
     pattern: "compliment",
     desc: "Give a nice compliment",
     category: "fun",
@@ -142,7 +142,7 @@ malvin({
     await conn.sendMessage(mek.chat, { text: message, mentions: [mek.sender, mentionedUser].filter(Boolean) }, { quoted: mek });
 });
 
-malvin({
+liza({
     pattern: "lovetest",
     desc: "Check love compatibility between two users",
     category: "fun",
@@ -173,7 +173,7 @@ malvin({
     await conn.sendMessage(mek.chat, { text: message, mentions: [user1, user2] }, { quoted: mek });
 }); 
 
-malvin(
+liza(
     {
         pattern: "emoji",
         desc: "Convert text into emoji form.",

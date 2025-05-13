@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const fetch = require('node-fetch');
 
-malvin({
+liza({
     pattern: "tiktok2",
     alias: ["tt2", "tiktokdl2", "ttdown2", "tiktokvid2", "ttdl"],
     desc: "Download TikTok videos using a link.",

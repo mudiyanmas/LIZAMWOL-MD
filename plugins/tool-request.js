@@ -1,8 +1,8 @@
 
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const config = require("../settings");
 
-malvin({
+liza({
     pattern: "report",
     alias: ["ask", "bug", "request"],
     desc: "Report a bug or request a feature",

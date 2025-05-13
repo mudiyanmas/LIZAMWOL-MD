@@ -1,7 +1,7 @@
 const axios = require("axios");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
-malvin({
+liza({
   pattern: "mediafire2",
   alias: ["mfire2", "mfdownload2"],
   react: '📥',
@@ -79,7 +79,7 @@ malvin({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363401718648491@newsletter,
+            newsletterJid: '120363401718648491@newsletter',
             newsletterName: '『 𝙻ιzα мωσℓ 』',
             serverMessageId: 143
           }
@@ -122,7 +122,7 @@ malvin({
 
 /// MEDIAFIRE 2
 
-malvin({
+liza({
   pattern: "mediafire",
   alias: ["mfire", "media"],
   react: '📂',

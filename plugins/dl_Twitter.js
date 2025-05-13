@@ -1,10 +1,10 @@
 
 const axios = require("axios");
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 
 // twitter-dl
 
-malvin({
+liza({
   pattern: "twitter",
   alias: ["tweet", "twdl"],
   desc: "Download Twitter videos",

@@ -1,6 +1,6 @@
 const config = require('../settings')
 const axios = require('axios');
-const { malvin, commands } = require('../malvin')
+const { liza, commands } = require('../liza')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 const fs = require('fs');
 var imgmsg = "*Give me a anime name !*"
@@ -8,7 +8,7 @@ var descgs = "It gives details of given anime name."
 var cants = "I cant find this anime."
 
 //====================================================================================
-malvin({
+liza({
     pattern: "garl",
     alias: ["imgloli"],
     react: '😎',
@@ -32,7 +32,7 @@ console.log(e)
 })
 
 //=====================================================================
-malvin({
+liza({
     pattern: "waifu",
     alias: ["imgwaifu"],
     react: '💫',
@@ -55,7 +55,7 @@ console.log(e)
 })
 
 //================================================================
-malvin({
+liza({
     pattern: "neko",
     alias: ["imgneko"],
     react: '💫',
@@ -78,7 +78,7 @@ console.log(e)
 })
   
 //=====================================================================
-malvin({
+liza({
     pattern: "megumin",
     alias: ["imgmegumin"],
     react: '💕',
@@ -101,7 +101,7 @@ console.log(e)
 })
 
 //================================================================
-malvin({
+liza({
     pattern: "maid",
     alias: ["imgmaid"],
     react: '💫',
@@ -124,7 +124,7 @@ console.log(e)
 })
 
 //=====================================================================
-malvin({
+liza({
     pattern: "awoo",
     alias: ["imgawoo"],
     react: '😎',
@@ -146,7 +146,7 @@ console.log(e)
 }
 })
 // Anmiex
-malvin({
+liza({
     pattern: "animegirl",
     desc: "Fetch a random anime girl image.",
     category: "anime",
@@ -166,7 +166,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
-malvin({
+liza({
     pattern: "animegirl1",
     desc: "Fetch a random anime girl image.",
     category: "anime",
@@ -186,7 +186,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
-malvin({
+liza({
     pattern: "animegirl2",
     desc: "Fetch a random anime girl image.",
     category: "anime",
@@ -206,7 +206,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
-malvin({
+liza({
     pattern: "animegirl3",
     desc: "Fetch a random anime girl image.",
     category: "anime",
@@ -226,7 +226,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
-malvin({
+liza({
     pattern: "animegirl4",
     desc: "Fetch a random anime girl image.",
     category: "anime",
@@ -246,7 +246,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
-malvin({
+liza({
     pattern: "animegirl5",
     desc: "Fetch a random anime girl image.",
     category: "anime",
@@ -266,7 +266,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
-malvin({
+liza({
     pattern: "dog",
     desc: "Fetch a random dog image.",
     category: "anime",
@@ -286,7 +286,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
-malvin({
+liza({
     pattern: "cat",
     desc: "Fetch a random cat image.",
     category: "anime",

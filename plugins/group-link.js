@@ -1,4 +1,4 @@
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const config = require('../settings');
 const prefix = config.PREFIX;
 const fs = require('fs');
@@ -6,7 +6,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson
 const { writeFileSync } = require('fs');
 const path = require('path');
 
-malvin({
+liza({
     pattern: "invite",
     alias: ["glink", "grouplink"],
     desc: "Get group invite link.",

@@ -1,8 +1,8 @@
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const fs = require('fs');
 const path = require('path');
 
-malvin({
+liza({
     pattern: "get",
     alias: ["source", "js"],
     desc: "Fetch the full source code of a command",

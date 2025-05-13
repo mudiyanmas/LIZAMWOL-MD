@@ -1,8 +1,8 @@
 const axios = require('axios');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
 // WhatsApp Channel Stalker
-malvin({
+liza({
   pattern: 'wastalk',
   alias: ['chanstalk', 'wstalk'],
   react: '📢',

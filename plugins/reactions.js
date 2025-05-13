@@ -1,8 +1,8 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const { fetchGif, gifToVideo } = require("../lib/fetchGif");
 const axios = require("axios");
 
-malvin(
+liza(
     {
         pattern: "cry",
         desc: "Send a crying reaction GIF.",
@@ -42,7 +42,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "cuddle",
         desc: "Send a cuddle reaction GIF.",
@@ -82,7 +82,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "bully",
         desc: "Send a bully reaction GIF.",
@@ -122,7 +122,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "hug",
         desc: "Send a hug reaction GIF.",
@@ -163,7 +163,7 @@ malvin(
 );
 
 
-malvin(
+liza(
     {
         pattern: "awoo",
         desc: "Send an awoo reaction GIF.",
@@ -203,7 +203,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "lick",
         desc: "Send a lick reaction GIF.",
@@ -238,7 +238,7 @@ malvin(
     }
 );
   
-malvin(
+liza(
     {
         pattern: "pat",
         desc: "Send a pat reaction GIF.",
@@ -277,7 +277,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "smug",
         desc: "Send a smug reaction GIF.",
@@ -317,7 +317,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "bonk",
         desc: "Send a bonk reaction GIF.",
@@ -358,7 +358,7 @@ malvin(
 );
 
 
-malvin(
+liza(
     {
         pattern: "yeet",
         desc: "Send a yeet reaction GIF.",
@@ -398,7 +398,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "blush",
         desc: "Send a blush reaction GIF.",
@@ -438,7 +438,7 @@ malvin(
     }
 );  
   
-malvin(
+liza(
     {
         pattern: "handhold",
         desc: "Send a hand-holding reaction GIF.",
@@ -479,7 +479,7 @@ malvin(
 );
 
 
-malvin(
+liza(
     {
         pattern: "highfive",
         desc: "Send a high-five reaction GIF.",
@@ -519,7 +519,7 @@ malvin(
     }
 );  
 
-malvin(
+liza(
     {
         pattern: "nom",
         desc: "Send a nom reaction GIF.",
@@ -559,7 +559,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "wave",
         desc: "Send a wave reaction GIF.",
@@ -599,7 +599,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "smile",
         desc: "Send a smile reaction GIF.",
@@ -639,7 +639,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "wink",
         desc: "Send a wink reaction GIF.",
@@ -679,7 +679,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "happy",
         desc: "Send a happy reaction GIF.",
@@ -719,7 +719,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "glomp",
         desc: "Send a glomp reaction GIF.",
@@ -759,7 +759,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "bite",
         desc: "Send a bite reaction GIF.",
@@ -799,7 +799,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "poke",
         desc: "Send a poke reaction GIF.",
@@ -840,7 +840,7 @@ malvin(
 );
   
   
-malvin(
+liza(
     {
         pattern: "cringe",
         desc: "Send a cringe reaction GIF.",
@@ -881,7 +881,7 @@ malvin(
 );
 
 
-malvin(
+liza(
     {
         pattern: "dance",
         desc: "Send a dance reaction GIF.",
@@ -923,7 +923,7 @@ malvin(
 
 
   
-malvin(
+liza(
     {
         pattern: "kill",
         desc: "Send a kill reaction GIF.",
@@ -967,7 +967,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "slap",
         desc: "Send a slap reaction GIF.",
@@ -1011,7 +1011,7 @@ malvin(
     }
 );
 
-malvin(
+liza(
     {
         pattern: "kiss",
         desc: "Send a kiss reaction GIF.",

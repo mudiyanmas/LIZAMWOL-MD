@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-// Fixed & Created By Malvin x Jawad
-malvin({
+// Fixed & Created By liza
+liza({
   pattern: "hidetag",
   alias: ["tag", "h"],  
   react: "🔊",

@@ -3,7 +3,7 @@
 //---------------------------------------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------------------------------------
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const config = require('../settings');
 const prefix = config.PREFIX;
 const fs = require('fs');
@@ -11,7 +11,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson
 const { writeFileSync } = require('fs');
 const path = require('path');
 
-malvin({
+liza({
     pattern: "admin-events",
     alias: ["adminevents"],
     desc: "Enable or disable admin event notifications",
@@ -33,7 +33,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "welcome",
     alias: ["welcomeset"],
     desc: "Enable or disable welcome messages for new members",
@@ -55,7 +55,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "setprefix",
     alias: ["prefix"],
     react: "🔧",
@@ -74,7 +74,7 @@ malvin({
     return reply(`✅ Prefix successfully changed to *${newPrefix}*`);
 });
 
-malvin({
+liza({
     pattern: "mode",
     alias: ["setmode"],
     react: "🫟",
@@ -102,7 +102,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "auto-typing",
     description: "Enable or disable auto-typing feature.",
     category: "settings",
@@ -123,7 +123,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //mention reply 
 
 
-malvin({
+liza({
     pattern: "mention-reply",
     alias: ["menetionreply", "mee"],
     description: "Set bot status to always online or offline.",
@@ -150,7 +150,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 // ALWAYS_ONLINE COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "always-online",
     alias: ["alwaysonline"],
     desc: "Enable or disable the always online mode",
@@ -175,7 +175,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 //  AUTO_RECORDING COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "auto-recording",
     alias: ["autorecoding"],
     description: "Enable or disable auto-recording feature.",
@@ -202,7 +202,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 // AUTO_VIEW_STATUS COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "auto-seen",
     alias: ["autostatusview"],
     desc: "Enable or disable auto-viewing of statuses",
@@ -227,7 +227,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 // AUTO_LIKE_STATUS COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "status-react",
     alias: ["statusreaction"],
     desc: "Enable or disable auto-liking of statuses",
@@ -253,7 +253,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 //  READ-MESSAGE COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "read-message",
     alias: ["autoread"],
     desc: "enable or disable readmessage.",
@@ -278,7 +278,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 
 // AUTO_VOICE
 
-malvin({
+liza({
     pattern: "auto-voice",
     alias: ["autovoice"],
     desc: "enable or disable readmessage.",
@@ -305,7 +305,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 //  ANI-BAD COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "anti-bad",
     alias: ["antibadword"],
     desc: "enable or disable antibad.",
@@ -330,7 +330,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 //  AUTO-STICKER COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "auto-sticker",
     alias: ["autosticker"],
     desc: "enable or disable auto-sticker.",
@@ -355,7 +355,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 //  AUTO-REPLY COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "auto-reply",
     alias: ["autoreply"],
     desc: "enable or disable auto-reply.",
@@ -381,7 +381,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 //   AUTO-REACT COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "auto-react",
     alias: ["autoreact"],
     desc: "Enable or disable the autoreact feature",
@@ -406,7 +406,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //--------------------------------------------
 //  STATUS-REPLY COMMANDS
 //--------------------------------------------
-malvin({
+liza({
     pattern: "status-reply",
     alias: ["autostatusreply"],
     desc: "enable or disable status-reply.",
@@ -433,7 +433,7 @@ async (conn, mek, m, { from, args, isCreator, reply }) => {
 //  ANTILINK COMMANDS
 //--------------------------------------------
 
-malvin({
+liza({
   pattern: "antilink",
   alias: ["antilinks"],
   desc: "Enable or disable ANTI_LINK in groups",
@@ -460,7 +460,7 @@ malvin({
   }
 });
 
-malvin({
+liza({
   pattern: "antilinkkick",
   alias: ["kicklink"],
   desc: "Enable or disable ANTI_LINK_KICK in groups",
@@ -488,7 +488,7 @@ malvin({
 });
 
 
-malvin({
+liza({
   pattern: "deletelink",
   alias: ["linksdelete"],
   desc: "Enable or disable DELETE_LINKS in groups",

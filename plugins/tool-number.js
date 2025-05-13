@@ -1,7 +1,7 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const axios = require("axios");
 
-malvin({
+liza({
     pattern: "tempnum",
     alias: ["fakenum", "tempnumber"],
     desc: "Get temporary numbers & OTP instructions",
@@ -65,7 +65,7 @@ async (conn, mek, m, { from, args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "templist",
     alias: ["tempnumberlist", "tempnlist", "listnumbers"],
     desc: "Show list of countries with temp numbers",
@@ -89,7 +89,7 @@ async (conn, m, { reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "otpbox",
     alias: ["checkotp", "getotp"],
     desc: "Check OTP messages for temporary number",

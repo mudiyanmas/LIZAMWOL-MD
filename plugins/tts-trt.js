@@ -1,9 +1,9 @@
 const axios = require('axios');
 const config = require('../settings')
-const {malvin , commands} = require('../malvin')
+const {liza , commands} = require('../liza')
 const googleTTS = require('google-tts-api')
 
-malvin({
+liza({
     pattern: "trt",
     alias: ["translate"],
     desc: "🌍 Translate text between languages",
@@ -40,7 +40,7 @@ async (conn, mek, m, { from, q, reply }) => {
 });
 
 //____________________________TTS___________________________
-malvin({
+liza({
     pattern: "tts",
     desc: "download songs",
     category: "download",

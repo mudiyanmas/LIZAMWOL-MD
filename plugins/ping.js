@@ -1,7 +1,7 @@
 const config = require('../settings');
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 
-malvin({
+liza({
     pattern: "ping",
     alias: ["speed", "pong", "ping2", "ping3"],
     use: '.ping',

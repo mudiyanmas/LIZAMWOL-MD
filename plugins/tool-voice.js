@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const axios = require('axios');
 
-malvin({
+liza({
     pattern: "aivoice",
     alias: ["vai", "voicex", "voiceai"],
     desc: "Text to speech with different AI voices",

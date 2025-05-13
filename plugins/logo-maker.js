@@ -5,11 +5,11 @@
 //---------------------------------------------
 
 
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const axios = require('axios');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../lib/functions2');
 
-malvin({
+liza({
     pattern: "3dcomic",
     desc: "Create a 3D Comic-style text effect",
     category: "logo",
@@ -46,7 +46,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "dragonball",
     desc: "Create a 3D Comic-style text effect",
     category: "logo",
@@ -83,7 +83,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "deadpool",
     desc: "Create a deadpool text effect",
     category: "logo",
@@ -120,7 +120,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "blackpink",
     desc: "Create a blackpink text effect",
     category: "logo",
@@ -157,7 +157,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "neonlight",
     desc: "Create a neon light text effect",
     category: "logo",
@@ -194,7 +194,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "cat",
     desc: "Create a cat text effect",
     category: "logo",
@@ -231,7 +231,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "sadgirl",
     desc: "Create a sadgirl text effect",
     category: "logo",
@@ -268,7 +268,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "pornhub",
     desc: "Create a pornhub text effect",
     category: "logo",
@@ -305,7 +305,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "naruto",
     desc: "Create a Naruto text effect",
     category: "logo",
@@ -342,7 +342,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "thor",
     desc: "Create a Thor text effect",
     category: "logo",
@@ -379,7 +379,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "america",
     desc: "Create  American text effect",
     category: "logo",
@@ -416,7 +416,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "eraser",
     desc: "Create a Eraser text effect",
     category: "logo",
@@ -453,7 +453,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "3dpaper",
     desc: "Create a 3D Paper text effect",
     category: "logo",
@@ -490,7 +490,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "futuristic",
     desc: "Create a futuristic text effect",
     category: "logo",
@@ -527,7 +527,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "clouds",
     desc: "Create a Clouds text effect",
     category: "logo",
@@ -564,7 +564,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "sans",
     desc: "Create a Sand text effect",
     category: "logo",
@@ -601,7 +601,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "galaxy",
     desc: "Create a Galaxy text effect",
     category: "logo",
@@ -638,7 +638,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "leaf",
     desc: "Create a Leaf text effect",
     category: "logo",
@@ -675,7 +675,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "sunset",
     desc: "Create a sunset text effect",
     category: "logo",
@@ -712,7 +712,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "nigeria",
     desc: "Create a Nigeria text effect",
     category: "logo",
@@ -749,7 +749,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "devilwings",
     desc: "Create a Devil Wings. text effect",
     category: "logo",
@@ -786,7 +786,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "hacker",
     desc: "Create a Hacker text effect",
     category: "logo",
@@ -823,7 +823,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "boom",
     desc: "Create a Boom text effect",
     category: "logo",
@@ -860,7 +860,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "luxury",
     desc: "Create a Luxury  text effect",
     category: "logo",
@@ -897,7 +897,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "zodiac",
     desc: "Create a 3D Comic-style text effect",
     category: "logo",
@@ -934,7 +934,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "angelwings",
     desc: "Create a Angel Wings text effect",
     category: "logo",
@@ -971,7 +971,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "bulb",
     desc: "Create a Bulb text effect",
     category: "logo",
@@ -1008,7 +1008,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "tatoo",
     desc: "Create a Tatoo ext effect",
     category: "logo",
@@ -1045,7 +1045,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "castle",
     desc: "Create a  Castle text effect",
     category: "logo",
@@ -1082,7 +1082,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "frozen",
     desc: "Create a Frozen text effect",
     category: "logo",
@@ -1119,7 +1119,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "paint",
     desc: "Create a Paint text effect",
     category: "logo",
@@ -1156,7 +1156,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "birthday",
     desc: "Create a Birthdaytext effect",
     category: "logo",
@@ -1193,7 +1193,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "typography",
     desc: "Create a Typography text effect",
     category: "logo",
@@ -1230,7 +1230,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "bear",
     desc: "Create a Bear text effect",
     category: "logo",
@@ -1267,7 +1267,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: "ytlogo",
     desc: "Create a Valorant YouTube banner with three text inputs",
     category: "logo",
@@ -1303,4 +1303,4 @@ malvin({
     }
 });
 
-//code by malvin king
+//code by liza

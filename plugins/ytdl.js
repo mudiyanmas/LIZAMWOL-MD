@@ -1,5 +1,5 @@
 const config = require('../settings');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const DY_SCRAP = require('@dark-yasiya/scrap');
 const dy_scrap = new DY_SCRAP();
 
@@ -9,7 +9,7 @@ function replaceYouTubeID(url) {
     return match ? match[1] : null;
 }
 
-malvin({
+liza({
     pattern: "song",
     alias: ["s"],
     react: "🎵",

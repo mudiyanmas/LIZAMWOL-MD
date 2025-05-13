@@ -1,8 +1,8 @@
 const config = require('../settings');
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const axios = require("axios");
 
-malvin({
+liza({
   pattern: "ytstalk",
   alias: ["youtubestalk", "ytsearch"],
   desc: "Get information about a YouTube channel, including their profile picture, stats, and latest videos.",

@@ -1,12 +1,12 @@
 const axios = require('axios');
 const config = require('../settings');
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const util = require("util");
 const { getAnti, setAnti, initializeAntiDeleteSettings } = require('../data/antidel');
 
 initializeAntiDeleteSettings();
 
-malvin({
+liza({
     pattern: "antidelete",
     alias: ['antidel', 'ad'],
     desc: "Sets up the Antidelete",
@@ -71,7 +71,7 @@ async (conn, mek, m, { from, reply, q, text, isCreator, fromMe }) => {
 });
 
 
-malvin({
+liza({
     pattern: "vv3",
     alias: ['retrive', '🔥'],
     desc: "Fetch and resend a ViewOnce message content (image/video).",

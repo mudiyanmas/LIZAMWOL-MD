@@ -1,6 +1,6 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "remove",
     alias: ["kick", "k"],
     desc: "Removes a member from the group",

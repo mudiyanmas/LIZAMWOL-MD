@@ -1,4 +1,4 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const crypto = require('crypto');
 const webp = require('node-webpmux');
 const axios = require('axios');
@@ -9,7 +9,7 @@ const Config = require('../settings');
 
 // Take Sticker 
 
-malvin(
+liza(
     {
         pattern: 'take',
         alias: ['rename', 'stake'],
@@ -45,7 +45,7 @@ malvin(
 
 //Sticker create 
 
-malvin(
+liza(
     {
         pattern: 'sticker',
         alias: ['s', 'stickergif'],

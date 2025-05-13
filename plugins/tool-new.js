@@ -1,7 +1,7 @@
 const { sleep } = require('../lib/functions');
-const {malvin , commands} = require('../malvin')
+const {liza , commands} = require('../liza')
 
-malvin({
+liza({
     pattern: "rcolor",
     desc: "Generate a random color with name and code.",
     category: "fun",
@@ -24,7 +24,7 @@ async (conn, mek, m, { reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "binary",
     desc: "Convert text into binary format.",
     category: "other",
@@ -46,7 +46,7 @@ async (conn, mek, m, { args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "dbinary",
     desc: "Decode binary string into text.",
     category: "other",
@@ -69,7 +69,7 @@ async (conn, mek, m, { args, reply }) => {
 });
 
 
-malvin({
+liza({
     pattern: "base64",
     desc: "Encode text into Base64 format.",
     category: "other",
@@ -93,7 +93,7 @@ async (conn, mek, m, { args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "unbase64",
     desc: "Decode Base64 encoded text.",
     category: "other",
@@ -117,7 +117,7 @@ async (conn, mek, m, { args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "urlencode",
     desc: "Encode text into URL encoding.",
     category: "other",
@@ -137,7 +137,7 @@ async (conn, mek, m, { args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "urldecode",
     desc: "Decode URL encoded text.",
     category: "other",
@@ -157,7 +157,7 @@ async (conn, mek, m, { args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "roll",
     desc: "Roll a dice (1-6).",
     category: "fun",
@@ -177,7 +177,7 @@ async (conn, mek, m, { reply }) => {
 }); 
 
 
-malvin({
+liza({
     pattern: "coinflip",
     desc: "Flip a coin and get Heads or Tails.",
     category: "fun",
@@ -196,7 +196,7 @@ async (conn, mek, m, { reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "flip",
     desc: "Flip the text you provide.",
     category: "fun",
@@ -218,7 +218,7 @@ async (conn, mek, m, { args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "pick",
     desc: "Pick between two choices.",
     category: "fun",
@@ -240,7 +240,7 @@ async (conn, mek, m, { args, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "timenow",
     desc: "Check the current local time.",
     category: "main",
@@ -268,7 +268,7 @@ async (conn, mek, m, { reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "date",
     desc: "Check the current date.",
     category: "main",
@@ -295,7 +295,7 @@ async (conn, mek, m, { reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "shapar",
     desc: "Send shapar ASCII art with mentions.",
     category: "fun",
@@ -348,7 +348,7 @@ async (conn, mek, m, { from, isGroup, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "rate",
     desc: "Rate someone out of 10.",
     category: "fun",
@@ -371,7 +371,7 @@ async (conn, mek, m, { from, isGroup, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "countx",
     desc: "Start a reverse countdown from the specified number to 1.",
     category: "fun",
@@ -411,7 +411,7 @@ async (conn, mek, m, { args, reply, senderNumber }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "count",
     desc: "Start a countdown from 1 to the specified number.",
     category: "fun",
@@ -452,7 +452,7 @@ async (conn, mek, m, { args, reply, senderNumber }) => {
 });
 
 
-malvin({
+liza({
     pattern: "calculate",
     alias: ["calc"],
     desc: "Evaluate a mathematical expression.",

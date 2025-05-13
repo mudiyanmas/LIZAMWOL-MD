@@ -1,6 +1,6 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "happy",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -39,7 +39,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "heart",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -78,7 +78,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "angry",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -115,7 +115,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "sad",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -153,7 +153,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "shy",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -190,7 +190,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "moon",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -231,7 +231,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "confused",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -268,7 +268,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "hot",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",
@@ -307,7 +307,7 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-malvin({
+liza({
     pattern: "nikal",
     desc: "Displays a dynamic edit msg for fun.",
     category: "fun",

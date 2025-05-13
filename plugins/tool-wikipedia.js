@@ -1,8 +1,8 @@
-const { malvin, commands } = require("../malvin");
+const { liza, commands } = require("../liza");
 const { fetchJson } = require("../lib/functions");
 const { translate } = require("@vitalets/google-translate-api");
 
-malvin({
+liza({
   pattern: "wikipedia",
   alias: ["wiki"],
   react: "📖",

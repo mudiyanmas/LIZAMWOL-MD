@@ -1,8 +1,8 @@
 const converter = require('../data/converter');
 const stickerConverter = require('../data/sticker-converter');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: 'convert',
     alias: ['sticker2img', 'stoimg', 'stickertoimage', 's2i'],
     desc: 'Convert stickers to images',
@@ -47,7 +47,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: 'tomp3',
     desc: 'Convert media to audio',
     category: 'audio',
@@ -97,7 +97,7 @@ malvin({
     }
 });
 
-malvin({
+liza({
     pattern: 'toptt',
     desc: 'Convert media to voice message',
     category: 'audio',

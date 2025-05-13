@@ -1,6 +1,6 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "demote",
     alias: ["d", "dismiss", "removeadmin"],
     desc: "Demotes a group admin to a normal member",

@@ -9,12 +9,12 @@ const ffmpegPath = require("@ffmpeg-installer/ffmpeg").path;
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require("../lib/functions");
 const ffmpeg = require("fluent-ffmpeg");
 const fs = require("fs");
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const { videoToWebp } = require('../lib/video-utils');
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
 const config = require("../settings");
 
-malvin(
+liza(
   {
     pattern: 'vsticker',
     alias: ['gsticker', 'g2s', 'gs', 'v2s', 'vs',],
@@ -60,7 +60,7 @@ malvin(
 );    
 
 
-malvin({
+liza({
     pattern: "attp",
     desc: "Convert text to a GIF sticker.",
     react: "✨",

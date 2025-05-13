@@ -2,9 +2,9 @@
 
 const fetch = require('node-fetch');
 const config = require('../settings');    
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "repo",
     alias: ["sc", "script"],
     desc: "Fetch information about a GitHub repository.",

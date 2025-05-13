@@ -1,7 +1,7 @@
 const axios = require("axios");
-const { malvin, commands } = require("../malvin");
+const { liza, commands } = require("../liza");
 
-malvin({
+liza({
     pattern: "ringtone",
     alias: ["ringtones", "ring"],
     desc: "Get a random ringtone from the API.",

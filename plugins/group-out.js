@@ -1,6 +1,6 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "out",
     alias: ["ck", "🦶"],
     desc: "Removes all members with specific country code from the group",

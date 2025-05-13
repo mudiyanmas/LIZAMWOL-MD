@@ -2,13 +2,13 @@ const axios = require('axios');
 const config = require('../settings');
 const fs = require('fs');
 const path = require('path');
-const {malvin , commands} = require('../malvin')
+const {liza , commands} = require('../liza')
 
 
 // Replace this with your actual GitHub RAW JSON URL
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/XdKing2/MALVIN-DATA/main/autoreply.json';
 
-malvin({
+liza({
   on: "body"
 },
 async (conn, mek, m, { body }) => {

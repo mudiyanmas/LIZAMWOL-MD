@@ -1,7 +1,7 @@
 const config = require('../settings')
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 
-malvin({
+liza({
     pattern: "msg",
     desc: "Send a message multiple times (Owner Only)",
     category: "utility",

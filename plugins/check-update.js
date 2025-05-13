@@ -2,10 +2,10 @@ const axios = require('axios');
 const os = require('os');
 const fs = require('fs');
 const path = require('path');
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const { runtime } = require('../lib/functions');
 
-malvin({
+liza({
   pattern: 'version',
   alias: ["changelog", "cupdate", "checkupdate"],
   react: '🚀',

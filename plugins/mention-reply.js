@@ -1,8 +1,8 @@
 const config = require('../settings');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const axios = require('axios');
 
-malvin({
+liza({
   on: "body"
 }, async (conn, m, { isGroup }) => {
   try {

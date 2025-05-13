@@ -1,8 +1,8 @@
 const config = require('../settings')
-const { malvin, commands } = require('../malvin')
+const { liza, commands } = require('../liza')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 
-malvin({
+liza({
     pattern: "revoke",
     react: "🖇️",
     alias: ["revokegrouplink","resetglink","revokelink","f_revoke"],

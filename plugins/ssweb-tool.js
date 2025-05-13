@@ -1,10 +1,10 @@
-// code by ⿻ ⌜ MALVIN ⌟⿻⃮͛
+// code by ⿻ ⌜ liza ⌟⿻⃮͛
 
 const axios = require("axios");
 const config = require('../settings');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
   pattern: "sss",
   alias: ["ssweb"],
   react: "💫",

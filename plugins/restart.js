@@ -1,7 +1,7 @@
-const { malvin } = require("../malvin");  
+const { liza } = require("../liza");  
 const { sleep } = require("../lib/functions");  
 
-malvin({  
+liza({  
     pattern: "restart",  
     desc: "Restart LIZAMWOL-MD",  
     category: "owner",  

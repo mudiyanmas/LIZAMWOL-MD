@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const config = require("../settings");
 
-malvin({
+liza({
   'on': "body"
 }, async (conn, m, store, {
   from,

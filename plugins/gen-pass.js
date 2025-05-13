@@ -1,7 +1,7 @@
 const crypto = require("crypto");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
-malvin({
+liza({
   pattern: "gpass",
   desc: "Generate a strong password with customizable options.",
   category: "other",

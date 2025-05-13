@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const config = require('../settings')
-const {malvin , commands} = require('../malvin')
+const {liza , commands} = require('../liza')
 
 
 //auto recording
-malvin({
+liza({
   on: "body"
 },    
 async (conn, mek, m, { from, body, isOwner }) => {       

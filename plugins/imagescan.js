@@ -3,7 +3,7 @@ const FormData = require('form-data');
 const fs = require('fs');
 const os = require('os');
 const path = require("path");
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
 // Helper function to format bytes
 function formatBytes(bytes) {
@@ -14,7 +14,7 @@ function formatBytes(bytes) {
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
 }
 
-malvin({
+liza({
   pattern: "imgscan",
   alias: ["scanimg", "imagescan", "analyzeimg"],
   react: '🔍',

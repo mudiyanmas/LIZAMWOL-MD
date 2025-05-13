@@ -1,7 +1,7 @@
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 const { fetchJson } = require('../lib/functions');
 
-malvin({
+liza({
     pattern: "fetch",
     alias: ["get", "api"],
     desc: "Fetch data from a provided URL or API",

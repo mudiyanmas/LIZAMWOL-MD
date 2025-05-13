@@ -1,7 +1,7 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const axios = require('axios');
 
-malvin({
+liza({
   pattern: "xstalk",
   alias: ["twitterstalk", "twtstalk"],
   desc: "Get details about a Twitter/X user.",

@@ -1,6 +1,6 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 
-malvin({
+liza({
   pattern: "send",
   alias: ["sendme", 'save'],
   react: '📤',

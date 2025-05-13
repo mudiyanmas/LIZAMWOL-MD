@@ -1,7 +1,7 @@
 const axios = require('axios');
 const config = require('../settings');
-const { malvin, commands } = require('../malvin');
-malvin({
+const { liza, commands } = require('../liza');
+liza({
     pattern: "weather",
     desc: "🌤 Get weather information for a location",
     react: "🌤",

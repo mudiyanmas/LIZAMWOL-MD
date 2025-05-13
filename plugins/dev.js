@@ -1,6 +1,6 @@
-const { malvin, commands } = require('../malvin');
+const { liza, commands } = require('../liza');
 
-malvin({
+liza({
     pattern: "owner",
     alias: ["developer", "dev"],
     desc: "Displays the developer info",

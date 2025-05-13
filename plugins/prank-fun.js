@@ -1,6 +1,6 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 
-malvin({
+liza({
     pattern: "hack",
     desc: "Displays a dynamic and playful 'Hacking' message for fun.",
     category: "fun",
