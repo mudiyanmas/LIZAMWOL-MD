@@ -1,4 +1,4 @@
-const { liza } = require('../malvin');
+const { liza } = require('../liza');
 const config = require("../settings");
 
 // Anti-Bad Words System
