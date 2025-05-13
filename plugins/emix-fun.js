@@ -1,9 +1,9 @@
-const { malvin } = require("../malvin");
+const { liza } = require("../liza");
 const { fetchEmix } = require("../lib/emix-utils");
 const { getBuffer } = require("../lib/functions");
 const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 
-malvin({
+liza({
     pattern: "emix",
     desc: "Combine two emojis into a sticker.",
     category: "fun",
