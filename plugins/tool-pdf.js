@@ -1,8 +1,8 @@
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const PDFDocument = require('pdfkit');
 const { Buffer } = require('buffer');
 
-malvin({
+liza({
     pattern: "topdf",
     alias: ["pdf","topdf"],use: '.topdf',
     desc: "Convert provided text to a PDF file.",
@@ -25,7 +25,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 document: pdfData,
                 mimetype: 'application/pdf',
-                fileName: 'MalvinTech.pdf',
+                fileName: 'liza.pdf',
                 caption: `
 *📄 PDF created successully!*
 
