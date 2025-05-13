@@ -1,11 +1,11 @@
 const { sleep } = require('../lib/functions');
 const config = require('../settings')
-const { malvin, commands } = require('../malvin')
+const { liza, commands } = require('../liza')
 
 
 // Malvin King
 
-malvin({
+liza({
     pattern: "leave",
     alias: ["left", "leftgc", "leavegc"],
     desc: "Leave the group",
