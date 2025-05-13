@@ -104,7 +104,7 @@ liza({
 // VIDEO SECTION
 
 
-malvin({
+liza({
   pattern: "igvid",
   alias: ["igvideo","ig","instagram", "igdl"],
   react: '📥',
