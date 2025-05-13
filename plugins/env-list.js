@@ -1,5 +1,5 @@
 const config = require('../settings');
-const { malvin } = require('../malvin');
+const { liza } = require('../liza');
 const axios = require('axios');
 
 /**
@@ -39,7 +39,7 @@ function generateSettingsList() {
     ).join('\n');
 }
 
-malvin({
+liza({
     pattern: 'env',
     alias: ['setting', 'allvar'],
     desc: 'View and manage bot settings',
