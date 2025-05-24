@@ -1,8 +1,8 @@
 /*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https//github.com/kingmalvn/MALVIN-XMD
-Support      : wa.me/263714757857
+Project Name : LIZAMWOL
+Creator      : MUDIYANMASS
+Repo         : https://github.com/mudiyanmas/LIZAMWOL-MD
+Support      : wa.me/918137829228
 */
 
 
