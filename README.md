@@ -38,7 +38,7 @@ Click the button below to fork the Knight Bot repository to your GitHub account:
 Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
 
 <div align="center">
-  <a href="https://replit.com/@paidtechzone/LI-L?v=1" target="_blank">
+  <a href="https://mwol-pair.onrender.com/pair" target="_blank">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/>
   </a>
 </div>
@@ -53,7 +53,7 @@ Deploy the bot and easily connect it to your WhatsApp account by pair code. Clic
 For further customization and setup guidance, click the button below:
 
 <div align="center">
-  <a href="https://chat.whatsapp.com/IDik0Yl1FnVGE6kiXsKUAG">
+  <a href="https://whatsapp.com/channel/0029Vb4sHtX6hENwn07deE1a">
     <img src="https://img.shields.io/badge/Deploy Tutorial-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
   </a>
   <a href="https://bot-hosting.net/?aff=1068419752923508776">
