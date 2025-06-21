@@ -1,8 +1,8 @@
 {
-  "name": "LIZAMWOL-MD",
-  "description": "Javascript WhatsApp bot made by 𝙻ιzα мωσℓ",
-  "logo": "https://files.catbox.moe/zu92j8.jpg",
-  "keywords": ["LIZAMWOL-MD"],
+  "name": "Liza",
+  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
+  "logo": "https://files.catbox.moe/yyy.jpg",
+  "keywords": ["Liza"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𝙻ιzα мωσℓ"
+      "value": "Liza"
     }, 
       
     "PREFIX": {
@@ -31,20 +31,19 @@
       "value": "public"
       
     },
-    
+
+     "ANTI_DELETE": {
+      "description": "set true for show deleted messages.",
+      "required": false,
+      "value": "true"  
+    },
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
       "value": "false"  
     },    
-  
-    "AUTO_VOICE": {
-      "description": "Make it true if want automatic voice reply .",
-      "required": false,
-      "value": "false"
-    }, 
-
+   
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
       "required": false,
@@ -79,27 +78,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY LIZAMWOL-MD ✨*"
+      "value": "*🤩 STATUS SEEN BY ❄️ʟɪᴢᴀ ᴍᴡᴏʟ ᴍᴅ❄️*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "𝙻ιzα мωσℓ"
+      "value": "𝐌ᴜᴅͥɪͣʏͫᴀ𝐍🦋✭"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "918137829228"
+      "value": "9181378****"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "𝙻ιzα мωσℓ"
+      "value": "❄️ʟɪᴢᴀ ᴍᴡᴏʟ ᴍᴅ❄️"
 
       }, 
 
@@ -132,13 +131,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/zu92j8.jpg"
+      "value": "https://files.catbox.moe/77373.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙻ιzα мωσℓ"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐌ᴜᴅͥɪͣʏͫᴀ𝐍🦋✭*"
     },
 
       "DELETE_LINKS": {
@@ -179,9 +178,9 @@
     }, 
     
     "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat",
+      "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
       "required": false,
-      "value": "log"
+      "value": "inbox"
     }, 
 
     "ADMIN_EVENTS": {
