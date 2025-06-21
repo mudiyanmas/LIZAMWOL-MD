@@ -1,6 +1,6 @@
-name: lizamwol-md
+name: khan-md
 services:
-  - name: lizamwol-md-service
+  - name: khan-md-service
     type: web
     ports:
       - 5000
