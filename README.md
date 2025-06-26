@@ -39,7 +39,7 @@ Deploy the bot and easily connect it to your WhatsApp account by pair code. Clic
 
 <div align="center">
   <a href="https://replit.com/@thelastcroneb/liza?v=1" target="_blank">
-    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Replit-success?style=for-the-badge" alt="Deploy on Replit"/>
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-RENDER-success?style=for-the-badge" alt="Deploy on Replit"/>
   </a>
 </div>
 
